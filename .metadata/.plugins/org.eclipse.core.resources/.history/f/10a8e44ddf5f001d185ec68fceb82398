@@ -1,0 +1,31 @@
+package sauceLabCloud;
+
+import org.testng.annotations.Test;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.BeforeMethod;
+
+public class SauceLabsTest1 {
+  @Test
+  public void f() {
+  }
+  @BeforeMethod
+  public void beforeMethod() throws MalformedURLException {
+	  //DesiredCapabilities cap = new DesiredCapabilities();
+	  //cap.setCapability(null, cap);
+	  DesiredCapabilities caps = new DesiredCapabilities();
+	  caps.setCapability("browserName", "chrome");
+	  caps.setCapability("platform", "Windows 7");
+	  caps.setCapability("version", "51");
+	  caps.setCapability("build", "<your build id>");
+	  caps.setCapability("name", "<your test name>");
+
+	  URL url = new URL("https://oauth-kamalnath121998-a4597:251f62f4-885f-4ecc-b09f-7de064f0c3a9@ondemand.eu-central-1.saucelabs.com:443/wd/hub");
+	  RemoteWebDriver driver = new RemoteWebDriver(url, caps);
+  }
+
+}

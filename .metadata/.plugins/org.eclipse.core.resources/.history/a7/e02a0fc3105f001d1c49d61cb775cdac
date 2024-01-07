@@ -1,0 +1,23 @@
+package sauceLabCloud;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+
+public class SauceLabsTest {
+  @Test
+  public void f() {
+  }
+  @BeforeMethod
+  public void beforeMethod() {
+	  ChromeOptions browserOptions = new ChromeOptions();
+	  browserOptions.setPlatformName("Windows 11");
+	  browserOptions.setBrowserVersion("latest");
+	  Map<String, Object> sauceOptions = new HashMap<>();
+	  sauceOptions.put("build", "<your build id>");
+	  sauceOptions.setCapability("name", "<your test name>");
+	  browserOptions.setCapability("sauce:options", sauceOptions);
+	  
+	  
+  }
+
+}

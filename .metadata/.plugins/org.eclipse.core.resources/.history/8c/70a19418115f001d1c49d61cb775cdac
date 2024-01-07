@@ -1,0 +1,14 @@
+package sauceLabCloud;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+
+public class SauceLabsTest1 {
+  @Test
+  public void f() {
+  }
+  @BeforeMethod
+  public void beforeMethod() {
+  }
+
+}

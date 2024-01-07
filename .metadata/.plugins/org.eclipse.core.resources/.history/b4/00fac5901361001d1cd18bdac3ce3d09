@@ -1,0 +1,10 @@
+package KamalIndustries.Tests;
+
+public class GIT_DEMO_LAST {
+	@TEST
+	public void appium() {
+		
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;FileUploadTest.java&apos; to &apos;autoIT/src/test/java/autoIT&apos;&#x0D;&#x0A;- Original project: &apos;autoIT&apos;&#x0D;&#x0A;- Destination element: &apos;autoIT/src/test/java/autoIT&apos;&#x0D;&#x0A;- Original element: &apos;autoIT.FileUploadTest.java&apos;" description="Copy compilation unit" destination="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;autoIT" element1="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;autoIT{FileUploadTest.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1667870868130" units="1" version="1.0"/>
+</session>
